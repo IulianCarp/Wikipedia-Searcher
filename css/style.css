@@ -1,0 +1,63 @@
+img {
+  width: 30%;
+  height: auto;
+  margin: 3%;
+}
+
+body {
+  background-image: url("https://s19.postimg.org/emta86mmr/circles-light.png");
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#searchTerm {
+  margin: 2% 0%;
+}
+
+#search {
+  margin: 2% 0%;
+}
+
+h3 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  padding: 2%;
+}
+
+h5 {
+  padding: 2%;
+}
+
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #d3d3d3;
+    color: white;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #ccc;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
